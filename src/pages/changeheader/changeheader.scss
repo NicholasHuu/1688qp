@@ -1,0 +1,21 @@
+.changeHeader {
+    .herderChoice {
+        margin-top: 30px;
+        div {
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-wrap: wrap;
+            background: white;
+            span {
+                flex: 25%;
+                padding: 10px;
+                img {
+                    display: block;
+                    margin: 0px auto;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

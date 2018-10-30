@@ -1,0 +1,38 @@
+<!--
+  Generated template for the AgentmanagementPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="navbar">
+        <ion-title>代理管理</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="mainContent">
+    <div class="searchCont">
+        <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+        <div class="searchResult">
+            <ion-list>
+                <div class="searchTitle">
+                    <span>排名</span>
+                    <span>昵称</span>
+                    <span>ID</span>
+                    <span>本周业绩</span>
+                    <span>团队人数</span>
+                </div>
+                <!-- <ion-item *ngFor="let item of items">
+                    <span>{{ item }}</span>
+                    <span>{{ item }}</span>
+                    <span>{{ item }}</span>
+                    <span>{{ item }}</span>
+                    <span>{{ item }}</span>
+                </ion-item> -->
+            </ion-list>
+        </div>
+    </div>
+</ion-content>

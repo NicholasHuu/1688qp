@@ -1,0 +1,74 @@
+.headerTop {
+    height: 175px;
+    background-image: url('../../assets/imgs/center/bg.png');
+    background-size: contain;
+    overflow: hidden;
+    .gamename {
+        width: 70%;
+        margin: 0px auto;
+        margin-top: 10%;
+        // margin-top: 30%;
+        div {
+            width: 80%;
+            margin: 0px auto;
+            text-align: center;
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.headerBottom {
+    background: white;
+    display: flex;
+    div {
+        flex: 0.5;
+        height: 40px;
+        span {
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            line-height: 200%;
+            text-align: left;
+            img {
+                height: 20px;
+                display: inline-block;
+                margin-left: 70%;
+                margin-top: 10%;
+            }
+        }
+    }
+}
+
+.centerAllCont {
+    .centerOuter {
+        margin-top: 30px;
+        div {
+            display: flex;
+            height: 40px;
+            background: white;
+            border-bottom: 1px solid #CCC;
+            .centerInner1 {
+                flex: 0.2;
+                img {
+                    display: inline-block;
+                    height: 50%;
+                    margin: 0px auto;
+                    margin-top: 12.5%;
+                }
+            }
+            .centerInner2 {
+                flex: 0.7;
+                font-size: 1.5rem;
+                line-height: 300%;
+            }
+            .centerInner3 {
+                flex: 0.1;
+            }
+        }
+    }
+    .shareApp {
+        margin-top: 40px;
+    }
+}

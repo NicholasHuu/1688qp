@@ -1,0 +1,41 @@
+.wangyinAllCont {
+    overflow: hidden;
+    p:nth-child(1) {
+        color: #CCC;
+        padding: 10px;
+    }
+    .wangyinWrap {
+        background: white;
+        div {
+            border-bottom: 1px solid #DDD;
+            padding: 10px;
+            span {
+                display: inline-block;
+                width: 30%;
+                font-size: 1.5rem;
+                padding: 5px;
+            }
+            input {
+                border: none;
+                padding-left: 10px;
+            }
+        }
+    }
+    .pOrange {
+        color: orange;
+        padding: 10px;
+    }
+    .moneyChoice {
+        display: flex;
+        justify-content: space-around;
+        background: none;
+        span {
+            flex: 0.2;
+            padding: 5px;
+            border: 1px solid #CCC;
+            text-align: center;
+            // color: orange;
+            border-radius: 5px;
+        }
+    }
+}

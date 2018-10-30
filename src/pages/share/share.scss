@@ -1,0 +1,60 @@
+.shareWrap {
+    background-image: url('../../assets/imgs/share/bg.png');
+    background-size: contain;
+    overflow: hidden;
+    .lottery {
+        margin-top: 20px;
+        .lotteryCircle {
+            width: 70%;
+            margin: 0px auto;
+            img {
+                width: 100%;
+            }
+        }
+        div:nth-child(2) {
+            padding: 20px 0px 0px 0px;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            span {
+                color: orange;
+                font-size: 3rem;
+            }
+        }
+        div:nth-child(3) {
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+    }
+    .shareTypes {
+        padding-top: 30px;
+        display: flex;
+        div {
+            flex: 0.33;
+            text-align: center;
+            img {
+                width: 50%;
+            }
+        }
+    }
+    .shareLink {
+        width: 80%;
+        margin: 0px auto;
+        padding-top: 30px;
+        overflow: hidden;
+        input {
+            background: none;
+            width: 70%;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 12px;
+            color: white;
+        }
+        button {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+    }
+}

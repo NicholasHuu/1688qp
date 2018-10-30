@@ -1,0 +1,29 @@
+.alipayScanerAllCont {
+    overflow: hidden;
+    .alipayScanerCont {
+        margin-top: 40px;
+        div:nth-child(1) {
+            padding-bottom: 30px;
+            img {
+                display: block;
+                height: 80px;
+                margin: 0px auto;
+            }
+        }
+        div:nth-child(2) {
+            background: white;
+            span {
+                display: inline-block;
+                width: 30%;
+                font-size: 1.6rem;
+                padding: 10px;
+            }
+            input {
+                display: inline-block;
+                border: none;
+                width: 60%;
+                color: orange;
+            }
+        }
+    }
+}

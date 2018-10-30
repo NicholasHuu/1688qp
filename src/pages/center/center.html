@@ -1,0 +1,64 @@
+<!--
+  Generated template for the CenterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <div class="headerTop">
+        <div class="gamename">
+            <div class="heraerPhoto"><img (tap)='changeheaderbtn()' src="../../assets/imgs/center/touxiang.png" alt=""></div>
+            <div class="colorWhite fontSize8">昵称有七个字</div>
+            <div class="colorPurple fontSize8">1000000元</div>
+        </div>
+    </div>
+    <div class="headerBottom">
+        <div (tap)='withdrawbtn()'><span><img src="../../assets/imgs/center/tixian.png" alt=""></span><span>提现</span></div>
+        <div (tap)='depositbtn()'><span><img src="../../assets/imgs/center/chongzhi.png" alt=""></span><span>充值</span></div>
+    </div>
+</ion-header>
+
+
+<ion-content class="centerAllCont mainContent">
+    <div class="centerOuter">
+        <div (tap)='admininfobtn()'>
+            <div class="centerInner1"><img src="../../assets/imgs/center/zhanghaoguanli.png" alt=""></div>
+            <div class="centerInner2">账号管理</div>
+            <div class="centerInner3">
+
+            </div>
+        </div>
+        <div (tap)='agentPagebtn()'>
+            <div class="centerInner1"><img src="../../assets/imgs/center/dailizhongxin.png" alt=""></div>
+            <div class="centerInner2">代理中心</div>
+            <div class="centerInner3">
+
+            </div>
+        </div>
+        <div (tap)='gamePagebtn()'>
+            <div class="centerInner1"><img src="../../assets/imgs/center/youxijilu.png" alt=""></div>
+            <div class="centerInner2">游戏记录</div>
+            <div class="centerInner3">
+
+            </div>
+        </div>
+        <!-- <div class="shareApp" (tap)='sharePagebtn()'> -->
+        <div class="shareApp" (tap)='sharePagebtn()'>
+            <div class="centerInner1"><img src="../../assets/imgs/center/fenxiang.png" alt=""></div>
+            <div class="centerInner2">分享APP</div>
+            <div class="centerInner3">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foorTabs">
+            <div><img style="width: 40%;margin-top: 14%;" src="../../assets/imgs/home/homeCam.png" /></div>
+            <div><img style="width: 68%;margin-top: 20%;" src="../../assets/imgs/home/shareCam.png" /></div>
+            <div><img style="width: 130%;margin-top: -20%;" src="../../assets/imgs/home/mainBtn.png" /></div>
+            <div><img style="width: 36%;margin-top: 20%;" src="../../assets/imgs/home/chongzhiCam.png" /></div>
+            <div><img style="width: 70%;margin-top: 14%;" src="../../assets/imgs/home/admiCli.png" /></div>
+        </div>
+    </footer>
+</ion-content>

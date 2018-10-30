@@ -1,0 +1,16 @@
+.searchCont {
+    overflow: hidden;
+    .searchResult {
+        margin-top: 20px;
+        .searchTitle {
+            display: flex;
+            background: #DDD;
+            span {
+                flex: 0.2;
+                font-size: 1.6rem;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+            }
+        }
+    }
+}

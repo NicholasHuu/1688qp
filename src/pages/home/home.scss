@@ -1,0 +1,80 @@
+.headerWrap {
+    height: 62px;
+    background-image: url("../../assets/imgs/home/headerBarBG.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    div {
+        height: 100%;
+    }
+    .face {
+        flex: 0.2;
+        text-align: center;
+        img {
+            width: 65%;
+            margin-top: 10%;
+        }
+    }
+    .gamename {
+        flex: 0.24;
+        div {
+            height: 50%;
+        }
+        .money {
+            padding-left: 10%;
+        }
+    }
+    .standSize {
+        flex: 0.14;
+        img {
+            display: inline-block;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 30%;
+        }
+    }
+}
+
+// ion-content {
+//     background: url("../../assets/imgs/home/bg.png") !important;
+//     background-size: cover;
+//     overflow: hidden;
+// }
+#allCont {
+    background-image: url("../../assets/imgs/home/bg.png");
+    background-size: cover;
+    overflow: hidden;
+    .broadcast {
+        background-image: url("../../assets/imgs/home/broastBg.png");
+        background-size: contain;
+        margin: 15px 0px 0px 0px;
+        div {
+            width: 90%;
+            margin: 0px auto;
+            height: 20px;
+            overflow: hidden;
+            .broleft {
+                width: 30%;
+                float: left;
+                img {
+                    height: 100%;
+                }
+            }
+            .broright {
+                width: 70%;
+                float: left;
+                div {
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 8px;
+                    span {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content-ios {
+    background: none;
+}

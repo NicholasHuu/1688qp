@@ -1,0 +1,27 @@
+.addSpan {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    .addBtn {
+        font-size: 3rem;
+        color: white;
+    }
+}
+
+.bankListAllcont {
+    background: rgb(44, 50, 48) !important;
+    .item-ios {
+        border: none !important;
+        background: none;
+        .item-inner {
+            border: none !important;
+        }
+    }
+}
+
+.bankBindBtn {
+    padding: 10px;
+    div {
+        background: url('../../assets/imgs/mask.png');
+    }
+}

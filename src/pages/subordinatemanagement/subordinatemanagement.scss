@@ -1,0 +1,16 @@
+.subordinatemanagement {
+    overflow: hidden;
+    .subordinatemanagementSearch {
+        margin-top: 20px;
+    }
+    .subordinatemanagementResult {
+        margin-top: 50px;
+        background: white;
+        padding: 10px;
+        li {
+            color: #DDD;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}

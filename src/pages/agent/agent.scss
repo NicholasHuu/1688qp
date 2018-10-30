@@ -1,0 +1,28 @@
+.agentAllCont {
+    .agentrOuter {
+        margin-top: 30px;
+        div {
+            display: flex;
+            height: 40px;
+            background: white;
+            border-bottom: 1px solid #CCC;
+            .agentInner1 {
+                flex: 0.2;
+                img {
+                    display: inline-block;
+                    height: 50%;
+                    margin: 0px auto;
+                    margin-top: 12.5%;
+                }
+            }
+            .agentInner2 {
+                flex: 0.7;
+                font-size: 1.5rem;
+                line-height: 300%;
+            }
+            .agentInner3 {
+                flex: 0.1;
+            }
+        }
+    }
+}

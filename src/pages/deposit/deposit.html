@@ -1,0 +1,58 @@
+<ion-header>
+    <ion-navbar color="navbar">
+        <ion-title>充值方式</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="mainContent">
+    <div class="depositTypes">
+        <div (tap)='wechatdepositbtn()'>
+            <div><img src="../../assets/imgs/充值方式/weixin-logo.png" alt=""></div>
+            <div>
+                <h2>微信扫码充值</h2>
+                <h3>使用微信扫收款二维码充值</h3>
+            </div>
+            <div></div>
+        </div>
+        <div (tap)='alipayscanerbtn()'>
+            <div><img src="../../assets/imgs/充值方式/zhifubao-logo.png" alt=""></div>
+            <div>
+                <h2>支付宝扫码充值</h2>
+                <h3>使用支付宝扫收款二维码充值</h3>
+            </div>
+            <div></div>
+        </div>
+        <div (tap)='meituanscaner()'>
+            <div><img src="../../assets/imgs/充值方式/meituan-logo.png" alt=""></div>
+            <div>
+                <h2>美团扫码充值</h2>
+                <h3>使用美团扫收款二维码充值</h3>
+            </div>
+            <div></div>
+        </div>
+        <div (tap)='alipayzhuanbtn()'>
+            <div><img src="../../assets/imgs/充值方式/zhifubao-logo.png" alt=""></div>
+            <div>
+                <h2>支付宝转账充值</h2>
+                <h3>使用支付宝转账充值，秒到账</h3>
+            </div>
+            <div></div>
+        </div>
+        <div (tap)='wangyinzhuanbtn()'>
+            <div><img src="../../assets/imgs/充值方式/wangyin-logo.png" alt=""></div>
+            <div>
+                <h2>网银充值</h2>
+                <h3>跳转网页登录网银转账，秒到账</h3>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <footer>
+        <div class="foorTabs">
+            <div><img style="width: 40%;margin-top: 14%;" src="../../assets/imgs/home/homeCam.png" /></div>
+            <div><img style="width: 68%;margin-top: 20%;" src="../../assets/imgs/home/shareCam.png" /></div>
+            <div><img style="width: 130%;margin-top: -20%;" src="../../assets/imgs/home/mainBtn.png" /></div>
+            <div><img style="width: 36%;margin-top: 20%;" src="../../assets/imgs/home/chongzhiCam.png" /></div>
+            <div><img style="width: 70%;margin-top: 14%;" src="../../assets/imgs/home/admiCli.png" /></div>
+        </div>
+    </footer>
+</ion-content>

@@ -1,0 +1,122 @@
+body {
+    margin: none;
+    padding: none;
+    list-style: none;
+}
+
+div,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px;
+}
+
+::placeholder {
+    color: #CCC;
+    opacity: 1;
+}
+
+.inpStyle {
+    display: inline-block;
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorPurple {
+    color: peru;
+}
+
+.colorOrange {
+    color: orange;
+}
+
+.fontSize8 {
+    font-size: 6px;
+}
+
+.mainContent {
+    background: rgb(242, 243, 247, ) !important;
+}
+
+// .scroll-content{
+//   // background-image: url(../../assets/imgs/login_background.png);
+//   background-size: cover;
+// }
+.tabs-ios .tabbar {
+    background: none;
+    border-top: none;
+    // background-image: url("../../assets/imgs/home/footerbarBG.png");
+    // background-size: contain;
+}
+
+body {
+    background-image: url(../../assets/imgs/login_background.png);
+    background-size: cover;
+}
+
+// 首页 分享赚钱 游戏大厅 充值 个人中心  公共样式开始
+footer {
+    padding: none !important;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    width: 100%;
+    .foorTabs {
+        height: 64px;
+        display: flex;
+        background-image: url("../../assets/imgs/home/footerbarBG.png");
+        background-size: contain;
+        div {
+            flex: 0.2;
+            text-align: center;
+        }
+    }
+}
+
+// 首页 分享赚钱 游戏大厅 充值 个人中心  公共样式结束
+// 转账下面的温馨提示样式开始
+.smalltishi {
+    padding: 10px;
+    li {
+        padding: 2px;
+        color: #ccc;
+    }
+}
+
+// 转账下面的温馨提示样式结束
+// 转账下面的提交按钮样式开始
+.submitBtn {
+    padding-top: 60px;
+    img {
+        display: block;
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+// 转账下面的提交按钮样式开始
+// span和input并列排列公共样式
+.spanInp {
+    background: white;
+    span {
+        display: inline-block;
+        width: 30%;
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+    input {
+        display: inline-block;
+        border: none;
+        width: 60%;
+    }
+}
+
+// span和input并列排列公共样式

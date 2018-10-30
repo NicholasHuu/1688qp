@@ -1,0 +1,44 @@
+.admininfoAllCont {
+    overflow: hidden;
+    .admininfoAllContWrap {
+        margin-top: 20px;
+        div {
+            border-bottom: 1px solid #DDD;
+            background: white;
+            div {
+                padding: 10px;
+                span {
+                    display: inline-block;
+                    font-size: 1.6rem;
+                    width: 45%;
+                }
+                span:nth-child(2) {
+                    text-align: right;
+                    padding-right: 5px;
+                }
+            }
+        }
+        .admininfoBottom {
+            margin-top: 30px;
+        }
+        .stationLetter {
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.admininfoTop {
+    .adnimiAvatar {
+        overflow: hidden;
+        span:nth-child(1) {
+            line-height: 200%;
+        }
+        .adnimiAvatarImg {
+            img {
+                height: 50px;
+            }
+        }
+    }
+}

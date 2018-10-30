@@ -1,0 +1,24 @@
+.alipayzhuanAllCont {
+    overflow: hidden;
+    p {
+        color: #CCC;
+        padding: 10px;
+    }
+    .alizhuanWrap {
+        background: white;
+        div {
+            border-bottom: 1px solid #DDD;
+            padding: 10px;
+            span {
+                display: inline-block;
+                width: 30%;
+                font-size: 1.5rem;
+                padding: 5px;
+            }
+            input {
+                border: none;
+                padding-left: 10px;
+            }
+        }
+    }
+}

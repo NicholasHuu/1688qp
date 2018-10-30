@@ -1,0 +1,49 @@
+<ion-content class="logincontent">
+    <div id="wrap">
+        <div class="wrap">
+            <div class="loginPhoto">
+                <div class="login_photo">
+                    <img src="../../assets/imgs/login/icon1.png" alt="">
+                </div>
+                <div class="login_text">
+                    <div><img src="../../assets/imgs/login/hailechess.png" alt=""></div>
+                </div>
+            </div>
+            <div class="loginUsernameWrap">
+                <div>
+                    <img src="../../assets/imgs/login/namePassword.png" alt="">
+                    <div class="username"><input class="inpStyle" type="text" [(ngModel)]="create.username" placeholder="请输入账号"></div>
+                    <div class="password"><input class="inpStyle" type="password" [(ngModel)]="create.password" placeholder="请输入号码"></div>
+                    <!-- 1,loginBtn div 元素是透明的隐藏在图片登录那个位置
+                    2,用来出发登录事件 -->
+                    <div class="loginBtn" (tap)="loginbtn()">
+                        <img src="../../assets/imgs/login/login.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="autoLogin">
+                <div>
+                    <div>
+                        <span>
+                            <img src="../../assets/imgs/login/checkbox.png" alt="">
+                            <img src="../../assets/imgs/login/choice.png" alt="">
+                        </span>
+                        <span class="colorWhite">记住密码</span>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../../assets/imgs/login/checkbox.png" alt="">
+                            <img src="../../assets/imgs/login/choice.png" alt="">
+                        </span>
+                        <span class="colorWhite">自动登录</span>
+                    </div>
+                </div>
+            </div>
+            <div class="registered">
+                <div>
+                    <a class="colorWhite" (tap)="registerbtn()">没有账号立即注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-content>
